@@ -1,0 +1,113 @@
+#back-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #a51515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  user-select: none;
+}
+.footer-top__left-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+.footer-social__item + .footer-social__item {
+  margin-left: 0.625rem;
+}
+.footer-social__link {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social__icon {
+  height: 0.9375rem;
+  width: auto;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 27rem;
+  grid-gap: 1.25rem;
+  padding: 2.375rem 0 1.875rem;
+}
+.footer-top__left-text {
+  margin-top: 1.875rem;
+}
+.footer-top__right-link {
+  display: inline-block;
+  line-height: 1.2;
+  height: 2rem;
+  margin-bottom: 1.5rem;
+}
+.footer-top__right-link + .footer-top__right-link {
+  margin-left: 1.25rem;
+}
+.footer-top__right {
+  text-align: right;
+}
+.receive-email {
+  max-width: 240px;
+  margin-left: auto;
+}
+.receive-email__tilte {
+  display: block;
+  text-align: left;
+}
+.receive-email__group {
+  width: 240px;
+  height: 30px;
+  overflow: hidden;
+}
+.receive-email__icon {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.receive-email__input {
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+  height: 30px;
+  padding: 0.325rem 5rem 0.325rem 2rem;
+}
+.btn.receive-email__btn {
+  background-color: #E5E5E5;
+  color: #4f4f4f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 999px;
+  padding: 0.325rem 0.75rem;
+}
