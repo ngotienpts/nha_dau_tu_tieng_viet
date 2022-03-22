@@ -50,7 +50,9 @@ img {
   display: block;
   max-width: 100%;
 }
-
+.mx-auto {
+  margin: auto;
+}
 /*===========================================================================*/
 .font-primary {
   font-family: "Sarabun", sans-serif;
@@ -616,7 +618,4 @@ img {
 /*=================================================================*/
 .text-uppercase {
   text-transform: uppercase;
-}
-.mx-auto {
-  margin: auto;
 }
